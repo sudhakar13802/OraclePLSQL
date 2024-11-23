@@ -11,6 +11,7 @@ BEGIN
   END IF;
 
   RETURN v_result;
+
 -- This is the result
 EXCEPTION
   WHEN ZERO_DIVIDE_EXCEPTION THEN

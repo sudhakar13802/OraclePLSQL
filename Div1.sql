@@ -11,7 +11,8 @@ BEGIN
   END IF;
 
   RETURN v_result;
--- new line added
+
+-- This is the result
 EXCEPTION
   WHEN ZERO_DIVIDE_EXCEPTION THEN
     RAISE;
